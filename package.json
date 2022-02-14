@@ -1,0 +1,16 @@
+{
+  "name": "gummy_doctor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Testing the state pattern in a doctor/nurse/recuer/hospital clown visits API",
+  "main": "index.js",
+  "author": "Daniel Sampaio <hollywoodpanda@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "nodemon": "2.0.15"
+  },
+  "scripts": {
+    "play:dev": "NODE_ENV=development nodemon index.js"
+  }
+}
